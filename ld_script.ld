@@ -1247,6 +1247,16 @@ SECTIONS {
         sound/songs/midi/ph_nurse_solo.o(.rodata);
         sound/songs/midi/mus_serenity.o(.rodata);
         sound/songs/midi/mus_route_17.o(.rodata);
+        sound/songs/midi/mus_mezzo.o(.rodata);
+        sound/songs/midi/mus_route_18.o(.rodata);
+        sound/songs/midi/mus_verdure.o(.rodata);
+        sound/songs/midi/mus_route_15.o(.rodata);
+        sound/songs/midi/mus_fracca.o(.rodata);
+        sound/songs/midi/mus_atramen.o(.rodata);
+        sound/songs/midi/mus_monolith.o(.rodata);
+        sound/songs/midi/mus_route_22.o(.rodata);
+        sound/songs/midi/mus_route_21.o(.rodata);
+        sound/songs/midi/mus_route_13.o(.rodata);
     } > ROM =0
 
     lib_rodata :

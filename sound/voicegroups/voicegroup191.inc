@@ -4,46 +4,46 @@ voicegroup191::
 	voice_directsound 60, 0, DirectSoundWaveData_steinway_b_piano, 255, 254, 0, 255 // bright acoustic
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // electric grand
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // honky tonk
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // EP1
+	voice_keysplit voicegroup198, KeySplitTable1 // EP1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // EP2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // harpsichord
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // clavinet
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // celesta
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // glockenspiel
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_glockenspiel, 255, 165, 51, 235 // glockenspiel
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // music box
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // vibraphone
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // marimba
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_vibraphone_60, 255, 165, 231, 249 // vibraphone
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_marimba, 255, 165, 231, 249 // marimba
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // xylophone
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // tubular bells
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // dulcimer
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // drawbar organ
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // percussive organ
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_organ2, 255, 0, 255, 210 // percussive organ
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // rock organ
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // church organ
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // reed organ
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // accordion
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_accordion, 255, 0, 255, 165 // accordion
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // harmonica
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // tango accordion
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // nylon guitar
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // steel guitar
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_nylon_str_guitar, 255, 249, 25, 76 // nylon guitar
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_steel_str_guitar, 255, 249, 25, 76 // steel guitar
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // jazz guitar
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // clean electric guitar
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_clean_guitar, 255, 0, 255, 127 // clean electric guitar
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // muted electric guitar
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // overdrive guitar
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // dist. guitar
+	voice_directsound 60, 0, DirectSoundWaveData_sd90_classical_overdrive_guitar, 255, 0, 255, 127 // overdrive guitar
+	voice_directsound 60, 0, DirectSoundWaveData_sd90_classical_distortion_guitar_high, 255, 0, 255, 127 // dist. guitar
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // guitar harmonics
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // acoustic bass
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // finger electric bass
+	voice_keysplit voicegroup193, KeySplitTable8 // acoustic bass
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_fingered_bass, 255, 250, 0, 149 // fingered electric bass
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // picked electric bass
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // fretless bass
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // slap bass 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // slap bass 2
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // synth bass 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // synth bass 2
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // violin
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // viola
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // cello
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // contrabass
+	voice_keysplit voicegroup192, KeySplitTable6 // violin
+	voice_keysplit voicegroup196, KeySplitTable6 // viola
+	voice_keysplit voicegroup194, KeySplitTable7 // cello
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_contrabass, 255, 0, 255, 0 // contrabass
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // trem. strings
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_pizzicato_strings, 255, 216, 0, 165 // pizz. strings
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_harp, 255, 242, 0, 204 // harp
@@ -52,12 +52,12 @@ voicegroup191::
 	voice_keysplit voicegroup006, KeySplitTable2 // slow strings
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // synth strings 1
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // synth strings 2
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // choir aahs
+	voice_directsound 60, 0, DirectSoundWaveData_classical_choir_voice_ahhs, 245, 0, 255, 165 // choir aahs
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // choir oohs
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // synth voice
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // orchestra hit
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // trumpet
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // trombone
+	voice_keysplit voicegroup007, KeySplitTable3 // trumpet
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_trombone, 255, 0, 193, 127 // trombone
 	voice_keysplit voicegroup008, KeySplitTable4 // tuba
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // muted trumpet
 	voice_keysplit voicegroup009, KeySplitTable5 // french horn
@@ -68,10 +68,10 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // alto sax
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // tenor sax
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // bari sax
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // oboe
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_oboe, 255, 165, 154, 127 // oboe
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // english horn
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_bassoon, 255, 127, 231, 127 // bassoon
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // clarinet
+	voice_keysplit voicegroup195, KeySplitTable3 // clarinet
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // piccolo
 	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_flute, 255, 127, 231, 127 // flute
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // recorder
@@ -89,12 +89,12 @@ voicegroup191::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // fifth saw lead
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // bass + lead
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // new age pad
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // warm pad
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_halo_pad, 255, 0, 255, 0 // warm pad
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // polysynth
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // choir pad
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // bowed glass
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // metallic pad
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // halo pad
+	voice_directsound 60, 0, DirectSoundWaveData_sc88pro_halo_pad, 255, 0, 255, 0 // halo pad
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // sweep pad
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // ice rain
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0 // soundtrack

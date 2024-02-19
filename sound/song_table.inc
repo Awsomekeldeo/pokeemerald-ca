@@ -613,6 +613,16 @@ gSongTable::
 	song ph_nurse_solo, 2, 2
 	song mus_serenity 0, 0
 	song mus_route_17 0, 0
+	song mus_mezzo 0, 0
+	song mus_route_18, 0, 0
+	song mus_verdure, 0, 0
+	song mus_route_15, 0, 0
+	song mus_fracca, 0, 0
+	song mus_atramen, 0, 0
+	song mus_monolith, 0, 0
+	song mus_route_22, 0, 0
+	song mus_route_21, 0, 0
+	song mus_route_13, 0, 0
 
 	.align 2
 dummy_song_header:

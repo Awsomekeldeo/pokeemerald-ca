@@ -42,6 +42,7 @@ static int s_extendedCommand;
 static int s_memaccOp;
 static int s_memaccParam1;
 static int s_memaccParam2;
+int trackVol = 0;
 
 void PrintAgbHeader()
 {
@@ -355,10 +356,14 @@ void PrintControllerOp(const Event& event)
         PrintOp(event.time, "MOD   ", "%u", event.param2);
         break;
     case 0x07:
+        trackVol = event.param2;
         PrintOp(event.time, "VOL   ", "%u*%s_mvl/mxv", event.param2, g_asmLabel.c_str());
         break;
     case 0x0A:
         PrintOp(event.time, "PAN   ", "c_v%+d", event.param2 - 64);
+        break;
+    case 0x0B:
+        PrintOp(event.time, "VOL   ", "%u*%u*%s_mvl/mxv/mxv", event.param2, trackVol, g_asmLabel.c_str());
         break;
     case 0x0C:
     case 0x10:

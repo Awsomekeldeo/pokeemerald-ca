@@ -4323,6 +4323,18 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(PH_NURSE_BLEND) \
     X(PH_NURSE_HELD) \
     X(PH_NURSE_SOLO) \
+    X(MUS_SERENITY) \
+    X(MUS_ROUTE17) \
+    X(MUS_MEZZO) \
+    X(MUS_ROUTE18) \
+    X(MUS_VERDURE) \
+    X(MUS_ROUTE15) \
+    X(MUS_FRACCA) \
+    X(MUS_ATRAMEN) \
+    X(MUS_MONOLITH) \
+    X(MUS_ROUTE22) \
+    X(MUS_ROUTE21) \
+    X(MUS_ROUTE13) \
 
 #define SOUND_LIST_SE \
     X(SE_USE_ITEM) \

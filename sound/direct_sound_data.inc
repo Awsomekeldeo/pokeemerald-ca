@@ -6349,3 +6349,127 @@ DirectSoundWaveData_sd90_enhanced_delay_shaku::
 	.align 2
 DirectSoundWaveData_sc88pro_bassoon::
 	.incbin "sound/direct_sound_samples/sc88pro_bassoon.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_sideStick::
+	.incbin "sound/direct_sound_samples/sc88pro_sideStick.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_trombone::
+	.incbin "sound/direct_sound_samples/sc88pro_trombone_60.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_violin_60::
+	.incbin "sound/direct_sound_samples/sc88pro_violin_60.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_violin_72::
+	.incbin "sound/direct_sound_samples/sc88pro_violin_72.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_ride_cymbal::
+	.incbin "sound/direct_sound_samples/sc88pro_ride_cymbal.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_violin_84::
+	.incbin "sound/direct_sound_samples/sc88pro_violin_84.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_acoustic_bass_36::
+	.incbin "sound/direct_sound_samples/sc88pro_acoustic_bass_36.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_acoustic_bass_48::
+	.incbin "sound/direct_sound_samples/sc88pro_acoustic_bass_48.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_acoustic_bass_60::
+	.incbin "sound/direct_sound_samples/sc88pro_acoustic_bass_60.bin"
+	
+	.align 2
+DirectSoundWaveData_sc88pro_steel_str_guitar::
+	.incbin "sound/direct_sound_samples/sc88pro_steel_str_guitar.bin"
+	
+	.align 2
+DirectSoundWaveData_sc88pro_cello_48::
+	.incbin "sound/direct_sound_samples/sc88pro_cello_48.bin"
+	
+	.align 2
+DirectSoundWaveData_sc88pro_cello_60::
+	.incbin "sound/direct_sound_samples/sc88pro_cello_60.bin"
+	
+	.align 2
+DirectSoundWaveData_sc88pro_marimba::
+	.incbin "sound/direct_sound_samples/sc88pro_marimba.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_clarinet_60::
+	.incbin "sound/direct_sound_samples/sc88pro_clarinet_60.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_clarinet_72::
+	.incbin "sound/direct_sound_samples/sc88pro_clarinet_72.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_clarinet_84::
+	.incbin "sound/direct_sound_samples/sc88pro_clarinet_84.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_viola_60::
+	.incbin "sound/direct_sound_samples/sc88pro_viola_60.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_viola_72::
+	.incbin "sound/direct_sound_samples/sc88pro_viola_72.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_viola_84::
+	.incbin "sound/direct_sound_samples/sc88pro_viola_84.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_vibraphone_60::
+	.incbin "sound/direct_sound_samples/sc88pro_vibraphone_60.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_epiano1_48::
+	.incbin "sound/direct_sound_samples/sc88pro_epiano1_48.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_epiano1_60::
+	.incbin "sound/direct_sound_samples/sc88pro_epiano1_60.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_epiano1_72::
+	.incbin "sound/direct_sound_samples/sc88pro_epiano1_72.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_epiano1_84::
+	.incbin "sound/direct_sound_samples/sc88pro_epiano1_84.bin"
+
+	.align 2
+DirectSoundWaveData_route_22_bass::
+	.incbin "sound/direct_sound_samples/route_22_bass.bin"
+
+	.align 2
+DirectSoundWaveData_route_22_sine::
+	.incbin "sound/direct_sound_samples/route_22_sine.bin"
+
+	.align 2
+DirectSoundWaveData_unknown_pedal_hihat::
+	.incbin "sound/direct_sound_samples/unknown_pedal_hihat.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_clean_guitar::
+	.incbin "sound/direct_sound_samples/sc88pro_clean_guitar.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_contrabass::
+	.incbin "sound/direct_sound_samples/sc88pro_contrabass.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_halo_pad::
+	.incbin "sound/direct_sound_samples/sc88pro_halo_pad.bin"
+
+	.align 2
+DirectSoundWaveData_sc88pro_oboe::
+	.incbin "sound/direct_sound_samples/sc88pro_oboe.bin"

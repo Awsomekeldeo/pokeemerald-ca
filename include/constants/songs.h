@@ -491,8 +491,18 @@
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
 #define MUS_SERENITY				610
-#define MUS_ROUTE_17				611
-#define END_MUS                     MUS_RG_TEACHY_TV_MENU
+#define MUS_ROUTE17				    611
+#define MUS_MEZZO                   612
+#define MUS_ROUTE18                 613
+#define MUS_VERDURE                 614
+#define MUS_ROUTE15                 615
+#define MUS_FRACCA                  616
+#define MUS_ATRAMEN                 617
+#define MUS_MONOLITH                618
+#define MUS_ROUTE22                 619
+#define MUS_ROUTE21                 620
+#define MUS_ROUTE13                 621
+#define END_MUS                     MUS_ROUTE13
 
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560

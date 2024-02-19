@@ -2,8 +2,8 @@
   "id": "MAP_OLDALE_TOWN",
   "name": "OldaleTown",
   "layout": "LAYOUT_OLDALE_TOWN",
-  "music": "MUS_OLDALE",
-  "region_map_section": "MAPSEC_OLDALE_TOWN",
+  "music": "MUS_MEZZO",
+  "region_map_section": "MAPSEC_MEZZO_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_SUNNY",
   "map_type": "MAP_TYPE_TOWN",
@@ -19,14 +19,14 @@
       "direction": "up"
     },
     {
-      "map": "MAP_ROUTE101",
-      "offset": 0,
-      "direction": "down"
-    },
-    {
       "map": "MAP_ROUTE102",
       "offset": 0,
       "direction": "left"
+    },
+    {
+      "map": "MAP_NORTH",
+      "offset": 0,
+      "direction": "down"
     }
   ],
   "object_events": [

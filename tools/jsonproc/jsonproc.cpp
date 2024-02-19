@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
     });
 
     env.add_callback("cleanString", 1, [](Arguments& args) {
-        string badChars = ".'{} \n\t-\u00e9";
+        string badChars = ".'{}()[] \n\t-\u00e9";
         string str = args.at(0)->get<string>();
         for (unsigned int i = 0; i < str.length(); i++) {
             if (badChars.find(str[i]) != std::string::npos) {
